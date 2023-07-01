@@ -1,5 +1,7 @@
+#_CV#1. Markdown & Git_
 # _Irina Shaporova_
 ---
+![](image/photo_.jpg)
 ## Contact information:
 ---
 ### Phone: +7 951 343 66 46
@@ -38,3 +40,6 @@ describe("Tests", () => {
 #### Academic programmes: Economics
 #### Profile 3++: Finance and loans
 ---
+# Languages
+* Russian (native)
+* English (level of English is somewhere between B1 Intermediate and B2 Upper Intermediate according to the Common European Framework of Reference, also known as the CEFR)  ([www.efset.org](https://www.efset.org/quick-check/))
