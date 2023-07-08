@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>CV</title>
+  </head>
+  <body>
+    <nav id="nav">
+      <div class="logo">Irina Shaporova</div>
+      <div>
+        <ul class="nav-list">
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#aboutme">About me</a></li>
+          <li><a href="#code_ex">Code examples</a></li>
+          <li><a href="#contact_in">Contact information</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#languages">Languages</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="nav-again">
+      <div class="logo">Irina Shaporova</div>
+      <div class="menu-nav">
+        <div class="nav-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <ul>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#aboutme">About me</a></li>
+            <li><a href="#code_ex">Code examples</a></li>
+            <li><a href="#contact_in">Contact information</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#languages">Languages</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section_pic-container">
+        <img src="/image/photo_1.ico" alt="Irina" />
+      </div>
+      <div class="section_text">
+        <p class="section_text_p1"></p>
+        <h1 class="title">Irina Shaporova</h1>
+        <p class="section_text_p2"></p>
+        <div class="btn-container"></div>
+        <div class="socials_containers">
+          <img
+            src="/image/git.png"
+            alt="github"
+            class="icon"
+            onclick="location.href='https://github.com/iris-ka23'"
+          />
+        </div>
+      </div>
+    </section>
+    <section class="about">
+      <p class="section_text_p1"></p>
+      <h2 class="title">About me</h2>
+      <div class="section-container">
+        <div class="section_pic-container">
+          <img src="/image/photo_2.ico" alt="me" class="about-pic" />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img src="/image/me.png" alt="me" class="icon" />
+              <h3>About me</h3>
+              <p>
+                `m 23 years old. I started learning programming 2 months ago.
+                <br />I hope the courses will heip me learn a lot of new things
+                and improve my skills.
+              </p>
+            </div>
+            <div class="details-container">
+              <img src="/image/university.png" alt="university" class="icon" />
+              <h3>Education</h3>
+              <p>
+                National Research Mordovia State University <br />Economics
+                Institute <br />
+                Academic programmes: Economics <br />
+                Profile 3++: Finance and loans
+              </p>
+            </div>
+          </div>
+          <div class="text-container"></div>
+        </div>
+      </div>
+    </section>
+    <section id="experience">
+      <p class="section_text_p1">Explore My</p>
+      <h2 class="title">Skills and Languages</h2>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Skills</h2>
+            <div class="article-container">
+              <article>
+                <img src="/image/1.ico" alt="check" class="icon" />
+                <div>
+                  <h3>HTML</h3>
+                </div>
+              </article>
+              <article>
+                <img src="/image/1.ico" alt="check" class="icon" />
+                <div>
+                  <h3>CSS</h3>
+                </div>
+              </article>
+              <article>
+                <img src="/image/1.ico" alt="check" class="icon" />
+                <div>
+                  <h3>JavaScript Basic</h3>
+                </div>
+              </article>
+              <article>
+                <img src="/image/1.ico" alt="check" class="icon" />
+                <div>
+                  <h3>Git</h3>
+                </div>
+              </article>
+              <article>
+                <img src="/image/1.ico" alt="check" class="icon" />
+                <div>
+                  <h3>GitHub</h3>
+                </div>
+              </article>
+              <article>
+                <img src="/image/1.ico" alt="check" class="icon" />
+                <div>
+                  <h3>VS Code</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img src="/image/1.ico" alt="check" class="icon" />
+                <div>
+                  <h3>Russian (native)</h3>
+                </div>
+              </article>
+              <article>
+                <img src="/image/1.ico" alt="check" class="icon" />
+                <div>
+                  <h3>English</h3>
+                  <p>
+                    (level of English is somewhere between B1 Intermediate and
+                    <br />B2 Upper Intermediate according to the Common European
+                    Framework of Reference, also known as the CEFR)
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="project">
+      <p class="section_text_p1">Start programming</p>
+      <h2 class="title">Code examples</h2>
+      <div class="experience-details-container">
+        <div class="details-container color-container">
+          <div class="article-container"></div>
+          <h2 class="experience-sub-title project-title">
+            Project one and Code examples
+          </h2>
+          <p>
+            <br />function filter_list(l) { // Return a new array with the
+            strings filtered out return l.filter(x => typeof x === 'number'); }
+            const assert = require('chai').assert; describe("Tests", () => {
+            it("test", () => {
+            assert.deepEqual(filter_list([1,2,'a','b']),[1,2], 'For input
+            [1,2,"a","b"]');
+            assert.deepEqual(filter_list([1,'a','b',0,15]),[1,0,15], 'For input
+            [1,"a","b",0,15]');
+            assert.deepEqual(filter_list([1,2,'aasf','1','123',123]),[1,2,123],
+            'For input [1,2,"aasf","1","123",123]'); }); });
+          </p>
+          <div class="btn-container">
+            <button
+              class="btn-color-2 project-btn"
+              onclick="location.href='https://github.com/Iris-ka23/rsschool-cv'"
+            >
+              GitHub
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <p class="section_text_p1">Get in touch</p>
+      <h2 class="title">Contact information</h2>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="/image/3.ico"
+            alt="mail"
+            class="icon contact-icon mail-icon"
+          />
+          <p><a href="mailto:e">ira.shaporova@mail.ru</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img src="/image/2.ico" alt="gfhgh" class="icon contact-icon" />
+          <p><a href="https://discord.com">Irina Shaporova(@Iris-ka23)</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="/image/telegram.png"
+            alt="telegram"
+            class="icon contact-icon mail-icon"
+          />
+          <p><a href="mailto:">@Shikpchik</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="/image/call.png"
+            alt="phone"
+            class="icon contact-icon mail-icon"
+          />
+          <p><a href="mailto:">7 951 343 66 46</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-list">
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#aboutme">About me</a></li>
+            <li><a href="#code_ex">Code examples</a></li>
+            <li><a href="#contact_in">Contact information</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#languages">Languages</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>
+        2023 Irina Shaporova
+        <a href="https://github.com/iris-ka23"> My GitHub </a>
+        <a href="https://rs.school/">
+          <img
+            src="https://rs.school/images/rs_school_js.svg"
+            alt="rs_school"
+            class="icon"
+        /></a>
+      </p>
+    </footer>
+  </body>
+</html>
